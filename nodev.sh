@@ -1,21 +1,26 @@
-#!/bin/bash
+#!/bin/sh
 
-dubug="false"
+dubug="true"
 
 
-nodeVersionFileName="./src/app/Services/versions/app.version.json"
+nodeVersionFileName="./nvmrc"
 
 echo "Cheching node version..."
 
-text1="you choose ${a1}"
-echo "${text1}" 
-a2="1"
+thisPath="$(cd "$(dirname "$1")" && pwd -P)/$(basename "$1")"
 
-if [ "$a1" == "$a2" ]; then
-	echo "dir was saved in file"
-elif [ "$a1" -eq "2" ]; then
-	ls -lh
+oneDirUp=""
+
+SCRIPTPATH=$(dirname "$SCRIPT")
+#fileText=`cat $verFileName`
+
+if [ "$dubug" = "true" ]
+	then
+	echo "This file path is $thisPath"
+	echo "The content of the file is $fileText"
+	
 fi
+
 
 
  
