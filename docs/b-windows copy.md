@@ -3,5 +3,5 @@ title: Windows
 order: 2
 ---
 
-# Installing
+# Windows installations
  

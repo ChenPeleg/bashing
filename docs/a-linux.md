@@ -5,6 +5,8 @@ order: 1
 
 # Content
 
-1. [sql client](posts/installing-sqlclient-on-ubuntu/)
-2. [linux prompt](/posts/ubuntu-propmt)
+1. [sql client](../installing-sqlclient-on-ubuntu/)
+2. [linux prompt](/bashing/posts/ubuntu-propmt)
+3. [installing python](/bashing/posts/install-python-ubunu)
+
  
