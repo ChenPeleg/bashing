@@ -1,4 +1,9 @@
-FROM allanandrade/node18-12-0-bullseye-slim
+FROM node:19.2-slim
 
-WORKDIR /usr/app
+WORKDIR /app
 
+COPY package.json .
+RUN npm install --quiet
+COPY . .
+
+CMD ["npm" ,"run", "start"]
