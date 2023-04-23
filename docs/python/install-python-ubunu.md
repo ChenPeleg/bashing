@@ -2,6 +2,8 @@
 
 ## Part 1 - installing `pyenv`
 
+pyenv is used to switch between different version of python
+
 Goto https://realpython.com/intro-to-pyenv/
 
 ```

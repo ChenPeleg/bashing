@@ -18,6 +18,9 @@ echo "=== copy docs to _tabs ==="
 mv ./docs/index.md ./index.md
 cp -r ./docs/. ./_tabs
 cd ./docs
+
+echo "=== copy all the md files from subdirs to docs dir ==="
+find . -name \*.md -exec cp {} ./ \;
 echo "=== added post dates to the docs files ==="
 ls | xargs -I {} mv {} 2023-2-2-{}
 cd ..
