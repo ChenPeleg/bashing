@@ -5,6 +5,7 @@ layout: page
 
 # Hours report
 
+
 An Estimated time spent on a git repository report.
 
 > Please note that the information might not be accurate enough to be used in billing.
