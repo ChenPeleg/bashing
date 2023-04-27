@@ -14,7 +14,12 @@ libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl
 ```
 
 ### Add to path
-paste thisi in the `./bashrc`:
+
+paste this in the `./bashrc`:
+
+```shell
+nano ./bashrc
+```
 
 ```
 
