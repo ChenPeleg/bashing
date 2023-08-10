@@ -10,4 +10,6 @@ If the System subkey doesn’t exist, you’ll have to create it.
 
 In right pane, look for an entry named BlockDomainPicturePassword. If it doesn’t exist, right-click on empty space and create a DWORD value and assign name as `BlockDomainPicturePassword`.
 
+set it to 0
+
 [source](https://www.top-password.com/blog/disable-windows-picture-password-sign-in/)
