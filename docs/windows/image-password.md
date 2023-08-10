@@ -1,11 +1,13 @@
-# enable image password
+# Enable image password
 
-Open Run command by pressing Windows + R  and type `gpedit.msc` and hit enter. This command will open the Group Policy Editor.
+1. Press the Windows key + R to open the Run box. Type regedit and press Enter. This will open the Registry Editor.
+2. Next, navigate to following entry:
+```shell
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System 
+```
 
-*Computer Configuration>Administrative>Templates>System>Logon*
+If the System subkey doesn’t exist, you’ll have to create it.
 
-From the Left-hand side click on Logon and from the Right-hand side Look for Turn on convenience PIN sign-in.
+In right pane, look for an entry named BlockDomainPicturePassword. If it doesn’t exist, right-click on empty space and create a DWORD value and assign name as `BlockDomainPicturePassword`.
 
-Policy settings allow you to control whether a domain user can sign in using a convenience PIN.
-
-Under the same path Look for Turn off picture password sign-in. This policy setting allows you to control whether a domain user can sign in using a picture password.
+[source](https://www.top-password.com/blog/disable-windows-picture-password-sign-in/)
