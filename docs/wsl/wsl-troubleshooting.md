@@ -84,3 +84,7 @@ Here is reproduce of workaround
 6. Click "Edit"
 7. Scroll down to "Code flow guard (CFG)" and uncheck/check "Override system settings" (CFG must be ON for this app!)
 Reboot
+
+This is my answer on stackoverflow
+
+https://stackoverflow.com/questions/43041331/docker-forever-in-docker-is-starting-at-windows-task/77031921#77031921
