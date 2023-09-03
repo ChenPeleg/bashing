@@ -56,3 +56,31 @@ Privacy and Security > Windows security > Device security
 
 > Toggle core isolation off
 
+Hyper -v might not be needed for the wsl:
+
+> You don't need a mega-powerful PC to run WSL 2 nor do you need the "Pro" version of Windows as you traditionally do to use the Hyper-V VM tool. WSL 2 does utilize the Hyper-V architecture but you don't need to pay extra for it.
+
+[source](https://www.xda-developers.com/how-to-install-wsl-2-windows/)
+
+
+### Enabling wsl
+Needs to be powershell with admin rights
+
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+### Launching linux - Solution
+
+It seems that vmcompute.exe must be strictly Code flow guard (CFG) enabled, otherwise it will not work.
+
+Here is reproduce of workaround
+===>
+1. Open "Window Security"
+2. Open "App & Browser control"
+3. Click "Exploit protection settings" at the bottom
+4. Switch to "Program settings" tab
+5. Add/Locate "C:\WINDOWS\System32\vmcompute.exe" in the list and expand it
+6. Click "Edit"
+7. Scroll down to "Code flow guard (CFG)" and uncheck/check "Override system settings" (CFG must be ON for this app!)
+Reboot
