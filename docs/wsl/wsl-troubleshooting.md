@@ -36,3 +36,23 @@ Error: 0x80370114 The operation could not be started because a required feature 
 Found this 
 
 https://answers.microsoft.com/en-us/insider/forum/all/wsl-2-installing-linux-failed-error-code/bae391d1-4215-4d93-b0c4-3d96404a7c74
+
+Followed instructions and then ran
+
+```
+net start vmcompute
+```
+
+got this error:
+
+`The Hyper-V Host Compute Service service could not be started.`
+
+Tried running the command `optionalfeatures`
+
+haven't seen hyper-v.
+
+Followed [these](https://www.makeuseof.com/windows-feature-name-microsoft-hyper-v-unknown-error/) instruction:
+Privacy and Security > Windows security > Device security
+
+> Toggle core isolation off
+
