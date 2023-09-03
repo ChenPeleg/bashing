@@ -8,3 +8,4 @@ order: 2
 1. [windows-installations apps](../windows-installations/)
 2. [path variables](../path-variables/)
 3. [image password](../image-password/)
+4. [wsl trouble shooting](../wsl/wsl-troubleshooting/)
