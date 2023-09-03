@@ -70,7 +70,7 @@ Needs to be powershell with admin rights
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-### Launching linux - Solution
+### Launching linux and docker - Solution
 
 It seems that vmcompute.exe must be strictly Code flow guard (CFG) enabled, otherwise it will not work.
 
