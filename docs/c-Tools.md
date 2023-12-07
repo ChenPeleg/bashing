@@ -5,4 +5,5 @@ order: 3
 
 # Installing
  
-4. [IOS clean install](../IOS/clean-install/)
+1. [IOS clean install](../clean-install/)
+2. [NVS vs NVM](../node-version-manager/)
