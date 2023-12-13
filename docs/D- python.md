@@ -10,3 +10,4 @@ order: 4
 # Creating virtual environment
 
 * [create virtual environment](/bashing/posts/create-pyenv-virtual-environment)
+* [Pycharm install v-env](/bashing/posts/pycharm-restoring-sql-windows)
