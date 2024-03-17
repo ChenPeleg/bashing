@@ -53,5 +53,26 @@ Use this if you need support for multi-platform images, image lazy-loading, or W
 Only images and containers in the active image store are visible. All your other containers and images still exist. To see them again, turn off this feature.
 ```
 
+Trying to download previos versions, like this says:
+https://github.com/docker/for-win/issues/13812
+
+> You must use a Docker version 4.22 or below to solve the problem.
+
+> Downgrading to Docker 4.22 “solved” it.
+
+https://docs.docker.com/desktop/release-notes/
+
+
+### Found solution
+
+If your using Windows 11, and using WSL engine in your docker desktop app, Apparently you need to run the docker command from wsl
+```
+wsl
+docker compose up --build
+```
+It's not on the docs at lease non that I cloud find.
+
+Found the answer here
+
 
 
