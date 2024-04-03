@@ -27,3 +27,12 @@ curl -o- https://raw.githubusercontent.com/jasongin/nvs/master/nvs.sh | bash
 nvs add lts
 nvs add 6.14.4
 nvs use 6.14.4
+
+
+### Clearing npx cache
+
+To clear the npx cache goto
+C:\Users\USERNAME\AppData\Local\npm-cache\_npx
+
+There you'll find a list of packages that you can delete
+
