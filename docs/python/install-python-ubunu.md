@@ -41,3 +41,9 @@ run
 ```shell
 pyenv install --list
 ```
+
+if you get an error like `Can not proceed with installation. Kindly remove .pyenv from home/` run this command:
+
+```shell
+rm -rf ~/.pyenv
+```
