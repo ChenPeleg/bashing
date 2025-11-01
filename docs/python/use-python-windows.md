@@ -11,6 +11,14 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 %USERPROFILE%\.pyenv\pyenv-win\bin
 %USERPROFILE%\.pyenv\pyenv-win\shims
 4. install poetry
+The better way, after setting up pyenv, is to use the following command to 
+
+```
+pipx install poetry
+
+```
+> The second less recommended way is to use the following command:
+
 ```
 powershell
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
@@ -18,6 +26,10 @@ powershell
 5. install python
 ```shell
 pyenv install %the version you want%
+```
+6. add python to path
+```shell
+C:\Users\%user%\AppData\Roaming\Python\Scripts
 ```
 
  
