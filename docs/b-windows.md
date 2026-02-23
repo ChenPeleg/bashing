@@ -9,3 +9,4 @@ order: 2
 2. [path variables](../path-variables/)
 3. [image password](../image-password/)
 4. [wsl trouble shooting](../wsl/wsl-troubleshooting/)
+5. [net command](../net-command/)
