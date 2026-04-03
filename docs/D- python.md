@@ -11,3 +11,7 @@ order: 4
 
 * [create virtual environment](/bashing/posts/create-pyenv-virtual-environment)
 * [Pycharm install v-env](/bashing/posts/pycharm-virtual-env)
+
+# Windows
+
+* [use python on windows](/bashing/posts/use-python-windows)
